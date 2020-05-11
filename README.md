@@ -18,3 +18,13 @@ deactivate
 # Creating Django Project
 django-admin.py startproject profiles_project . <br />
 python manage.py startapp profiles_api <br />
+
+
+# start Project
+- vagrant up
+- vagrant ssh
+- go to vagrant directory : cd /vagrant/
+- activate virtual environement : source ~/env/bin/deactivate
+- make migration file : python manage.py makemigrations
+- apply changes to database : python manage.py migrate
+- python manage.py runserver 0.0.0.0:8000
