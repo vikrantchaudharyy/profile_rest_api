@@ -2,7 +2,7 @@
 - Create, update, delete & manage user profiles_api
 - Authenticate with username and password
 - Manage user profile feed items
-- creating a workding local development runserver
+- creating a working local development runserver
 - using django models to create a database
 - enable and use Django admin
 - Use Django dev server to run & test code
